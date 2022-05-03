@@ -25,7 +25,6 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 // import article route
 const articleRoutes = require('./routes/article')
-
 // to use article routes
 app.use('/', articleRoutes)
 app.use('/article', articleRoutes)
