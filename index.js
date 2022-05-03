@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 
 const path = require('path')
+
 // add template engine
 const hbs = require('express-handlebars');
 // setup template engine directory and files extensions
