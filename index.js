@@ -30,10 +30,6 @@ const articleRoutes = require('./routes/article')
 app.use('/', articleRoutes)
 app.use('/article', articleRoutes)
 
-
-//Show all articles index page
-//Show article by this slug
-// app start point
 app.listen(3000, () => {
     console.log('App is started at http://localhost:3000');
 });
